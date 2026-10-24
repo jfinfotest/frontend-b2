@@ -1,7 +1,7 @@
 // MediCitas Pro - API Client
 // Centralized HTTP client consuming all Spring Boot endpoints
 
-const DEFAULT_API_URL = import.meta.env.VITE_API_URL || '/api';
+const DEFAULT_API_URL =  'https://apib2p2-qam16lo9.b4a.run/api';
 
 export const getApiBaseUrl = () => {
   return localStorage.getItem('medicitas_api_url') || DEFAULT_API_URL;
